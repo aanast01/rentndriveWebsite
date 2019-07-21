@@ -6,13 +6,23 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Error</title>
-<link rel="shortcut icon" type="image/x-icon" href="Logo2.jpg"/>
+<link rel="shortcut icon" type="image/x-icon" href="inallogo.png"/>
+<link rel="stylesheet" type="text/css" href="register.css" />
+
+<style>
+h2{
+letter-spacing: 8px;
+}
+</style>
 </head>
 <body>
-You entered invalid starting and finishing dates!
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+<h2 align="center">You entered invalid starting and finishing dates</h2> 
 
-<br />
-<br />
-<a href="search.jsp"style="text-decoration: none;" onMouseOver="this.style.color='#196F3D'" onMouseOut="this.style.color='#00F'">Back</a>
+<form action="search.jsp" method="post">
+<table align="center">
+<tr></td><td><button class="button button3" type="submit" name="Submit" alt="sign in" style="width:400px; height:80px" ><font size="6px" ><b>please try again</b></font></button> </td></tr>
+</table>
+</form>
 </body>
 </html>

@@ -42,20 +42,21 @@ public class search extends HttpServlet {
 		String transmition = request.getParameter("transmition");
 		String fuel = request.getParameter("fuel");
 		int year = Integer.parseInt(request.getParameter("year"));
+		String email=request.getParameter("email");
 
 		request.setAttribute("model", model);
 		request.setAttribute("country", country);
 		request.setAttribute("noofpeople", noofpeople);
 		request.setAttribute("city", city);
-		request.setAttribute("startingdate", startingdate);
-		request.setAttribute("finishingdate", finishingdate);
+		request.setAttribute("startingDate", startingdate);
+		request.setAttribute("finishingDate", finishingdate);
 		request.setAttribute("transmition", transmition);
 		request.setAttribute("fuel", fuel);
 		request.setAttribute("year", year);
+		request.setAttribute("email", email);
 
 		getServletContext().getRequestDispatcher("/result.jsp").forward(request, response);
 
-			
 	}
 	
 	

@@ -6,34 +6,47 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Rent n' Drive</title>
-<link rel="shortcut icon" type="image/x-icon" href="Logo2.jpg"/>
+<link rel="shortcut icon" type="image/x-icon" href="finallogo.png"/>
+<link rel="stylesheet" type="text/css" href="index.css" />
+
+<style>
+
+h3{
+letter-spacing: 5px;
+}
+
+</style>
 </head>
 
-<style type="text/css">
-#element1 {display:inline-block;margin-right:400px;} 
-#element2 {display:inline-block; } 
-</style>
 
 <body>
 
-<div id="element1">
-  	
-	<img src="Logo2.jpg" align="top-left" alt="logo" height="100" width="75"></img>
-	
-</div> 
-<div id="element2">  
-	<h1 align="center"> <font color="blue">Welcome to Rent and Drive!</font> </h1>
-	<h2 align ="center"><font color="blue">We hope you will have a pleasant holiday!</font> </h2> 
+
+<br></br>
+<div align="center">
+	<img src="finallogo.png" alt="logo" height="300" width="240" ></img>
 </div> 
 
+<div align="center">  
+	<h1 align="center" style="font-family:verdana;"> <font color="black"><b>Welcome to Rent n' Drive!</b></font> </h1>
+	<h3 align ="center" ><span style="font-weight:normal;"><font color="black">We hope you will have a pleasant holiday!</font> </h3> 
+</div> 
 
-<h3>Who are you?</h3>
+<br></br>
+<table align="center">
+<tr>
+<td><h3 align="center" class="spacing">Who are you?</h3></td>
+</tr>
+</table>
+<table align="center">
+<tr>
+  <form action="login2.jsp" method="post" class="" role="form">
 
-<a href="login.jsp"style="text-decoration: none;" onMouseOver="this.style.color='#196F3D'" onMouseOut="this.style.color='#00F'">Log in</a>
-<br />
-<a href="register.jsp"style="text-decoration: none;" onMouseOver="this.style.color='#196F3D'" onMouseOut="this.style.color='#00F'">Register</a>
-
-
+      <td><button class="button button3" type="submit" name="Submit" alt="sign in" style="width:200px"><font size="6"><b>Log in</b></font></button> </td>
+</tr>
+</form>
+</table>
+</div>
 
 </body>
 </html>

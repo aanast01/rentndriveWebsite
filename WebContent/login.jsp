@@ -32,6 +32,18 @@
 	
 </table>
 
+
+<%
+				ResultSet rs1 = stmt.executeQuery("select phonenumber from clients where clients.email = '"+ request.getParameter("email") +"';");
+				rs1.next();
+				%>
+				<input type="hidden" name = "clientPhone" value = "<%= rs1.getInt(1) %>" />
+				<input type="hidden" name = "startingDate" value = "<%= request.getParameter("startingDate") %>" />
+				<input type="hidden" name = "finishingDate" value = "<%= request.getParameter("finishingDate") %>" />
+
+
+
+
 		
 </body>
 </html>
